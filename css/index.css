@@ -137,7 +137,23 @@ html {
 }
 html .container {
   font-size: 2rem;
-  width: 100%;
+  width: 80%;
+  margin: 0% auto 2% auto;
+  background-color: white;
+}
+html nav {
+  width: 30%;
+  padding: 1.5%;
+  display: flex;
+  margin: 0 auto;
+  padding: 2%;
+}
+html nav a {
+  margin: 0 auto;
+  font-size: 1.6rem;
+  text-decoration: none;
+  font-family: 'Roboto';
+  color: black;
 }
 html img {
   width: 30%;
@@ -146,7 +162,7 @@ html img {
 }
 html .info {
   display: flex;
-  width: 50%;
+  width: 70%;
   flex-direction: row;
   margin: 0 auto;
   padding: 5%;
@@ -172,15 +188,15 @@ html .project-cards {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
   align-items: center;
   padding: 3%;
+  font-family: 'Roboto';
 }
 html .project-cards p {
   padding-bottom: 4%;
 }
 html .top-cards {
-  border: 2px solid yellow;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -191,9 +207,9 @@ html .top-cards .card {
   width: 30%;
   padding: 5%;
   margin-bottom: 4%;
+  text-align: center;
 }
 html .bottom-cards {
-  border: 2px solid yellow;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -203,4 +219,5 @@ html .bottom-cards .card {
   border: 2px solid blue;
   width: 30%;
   padding: 5%;
+  text-align: center;
 }
